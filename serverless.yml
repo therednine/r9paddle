@@ -17,6 +17,7 @@ functions:
     handler: fetchRiver.save
     events:
       - schedule:
-        name: r9paddle-15-min-rate
-        description: 'Runs function every 15 minutes'
-        rate: (15 minutes)
+          name: r9paddle-15-min-rate
+          description: 'Runs function every 15 minutes'
+          rate: rate(15 minutes)
+          enabled: true
