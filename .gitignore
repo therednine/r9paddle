@@ -1,2 +1,9 @@
-Lambda/sepa-fetch/lambda/node_modules/
+#Local File System
 .DS_Store
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
