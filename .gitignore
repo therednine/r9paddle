@@ -1,4 +1,10 @@
-node_modules
+#Local File System
 .DS_Store
+
+# package directories
+node_modules
+jspm_packages
 RefDocs
-lambda
+
+# Serverless directories
+.serverless
