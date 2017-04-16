@@ -5,6 +5,12 @@ service: r9paddle
 provider:
   name: aws
   runtime: nodejs6.10
+  region: eu-west-1
+  stage: dev
+  environment:
+    BUCKET: sepa.therednine.com
+    FILE: SEPA_River_Levels_Web.csv
+    URI: http://apps.sepa.org.uk/database/riverlevels/SEPA_River_Levels_Web.csv
 
 functions:
   hello:
