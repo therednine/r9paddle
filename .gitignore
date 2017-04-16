@@ -4,6 +4,7 @@
 # package directories
 node_modules
 jspm_packages
+RefDocs
 
 # Serverless directories
 .serverless
