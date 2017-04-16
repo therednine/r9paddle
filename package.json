@@ -1,0 +1,16 @@
+{
+  "name": "r9paddle",
+  "version": "1.0.0",
+  "description": "Red Nine Paddle App",
+  "main": "fetchRiver.js",
+  "dependencies": {
+    "node-fetch: "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
